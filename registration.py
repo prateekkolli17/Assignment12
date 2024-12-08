@@ -362,9 +362,7 @@ def main():
     The main function to retrieve a registration plan.
     The output code has been written for you.
     """
-    in_file = open("registration.in", "r")
-    lines = in_file.readlines()
-    in_file.close()
+    lines = [line for line in sys.stdin]
 
 
     # create a Graph object
